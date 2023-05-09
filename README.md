@@ -1,4 +1,4 @@
-# PP2-aorte-segmentation 
+# PP2-aorte-segmentation - Université de Montpellier
 # GROUPE N : Ibrahim Harcha, Ilona Lazrak, Samuel Mallet, Rosa Sabater Rojas
 
 <!-- Add banner here -->
