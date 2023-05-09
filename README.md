@@ -29,12 +29,24 @@ Our method is validated on a collection of 4100 2D images taken along the Z axis
     - Afficher les prédictions du model.
 
 
-## Deuixième étape du projet : Google Collab et programme final
+## Deuxième étape du projet : Google Collab et programme final
 
 ## U-NET_model_with_AVT_dataset.ipynb 
 
-
-
-
+    - Des explications annotées tout au long du programme en expliquant ce que chaque cellule fait.
+    - Le format du dataset et comment y accéder via Google Drive.
+    - Les résultats au dessous des cellules une fois executées.
+    -  Plots des CT-Scans
+    - La normalisation des images à partir de la technique MinMax
+    - La répartition des images pour le training et pour le test
+    - L'implémentation de l'U-Net défini
+    - L'enregistrement du modèle pour ne pas avoir besoin de relancer toutes les cellules à nouveau
+    - Les graphiques avec les résultats
 
 ## predict_and_reconstruct.ipynb 
+
+    - Charger le modèle déjà entraîné dans le notebook précédent
+    - L'utiliser pour prédire un masque sur une image 2D d'un CT-Scan
+    - Enregistrement des masques prédites par le modèle
+    - Seuillage
+    - Utiliser le modèle pour construire une segmentation 3D de l'aorte
