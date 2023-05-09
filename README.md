@@ -2,13 +2,14 @@
 # GROUPE N : Ibrahim Harcha, Ilona Lazrak, Samuel Mallet, Rosa Sabater Rojas
 
 <!-- Add banner here -->
-![Banner](./header.png)
+<img src="logo.jpeg" alt="logo" width="100"/> <img src="university.jpeg" alt="university" width="100"/>
 
-Aorta segmentation on 2D images of CT-Scans is a challenging task due to the complex anatomy and variability of the aorta. We propose a method for aorta segmentation using convolutional neural networks (CNNs) and U-NET architectures. We use Python as the programming language and Tensorflow as the deep learning framework. Our method involves four stages: first, we preprocess and standardize our .nrrd CT-Scans; second  we use a CNN to detect the aorta region and crop the image accordingly; third, we use a U-NET to segment the aorta from the cropped image; finally, we reconstruct a 3D segmentation of the aorta based on our model. \\
+
+## Abstract
+Aorta segmentation on 2D images of CT-Scans is a challenging task due to the complex anatomy and variability of the aorta. We propose a method for aorta segmentation using convolutional neural networks (CNNs) and U-NET architectures. We use Python as the programming language and Tensorflow as the deep learning framework. Our method involves four stages: first, we preprocess and standardize our .nrrd CT-Scans; second  we use a CNN to detect the aorta region and crop the image accordingly; third, we use a U-NET to segment the aorta from the cropped image; finally, we reconstruct a 3D segmentation of the aorta based on our model. 
 
 Our method is validated on a collection of 4100 2D images taken along the Z axis from 56 CT-Scan from various patients.
-Codes du projet et quelques modèles en format .h des premiers codes dataPreparation.py et testing.py
-\b
+
 ## Première étape du projet : Familiarisation avec les réseaux de néurones
 
 ### dataPreparation.py
