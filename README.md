@@ -16,8 +16,8 @@ Our method is validated on a collection of 4100 2D images taken along the Z axis
     - Savoir comment ouvrir des fichier .nrrd et .nii,
     - Indiquer les paths où se trouvaient les images dans nos répertoires,
     - Créer des dossiers pour sauvegarder les images au format .png,
-    - Plot les images et indiquer la couche et les coordonnées X, Y, Z.
-    - Ppremier approche à la normalisation d'images, mais fait avec des valeurs -1000 et 2000 triés complètement au hasard...
+    - Plot les images et indiquer la couche et les coordonnées X, Y, Z,
+    - Ppremier approche à la normalisation d'images, mais fait avec des valeurs -1000 et 2000 triés complètement au hasard.
 
 ### testing.py
     - Créer les fonctions pour afficher les images qu'il trouvera sur les paths indiqués,
@@ -33,20 +33,20 @@ Our method is validated on a collection of 4100 2D images taken along the Z axis
 
 ### U-NET_model_with_AVT_dataset.ipynb 
 
-    - Des explications annotées tout au long du programme en expliquant ce que chaque cellule fait.
-    - Le format du dataset et comment y accéder via Google Drive.
-    - Les résultats au dessous des cellules une fois executées.
-    -  Plots des CT-Scans
-    - La normalisation des images à partir de la technique MinMax
-    - La répartition des images pour le training et pour le test
-    - L'implémentation de l'U-Net défini
-    - L'enregistrement du modèle pour ne pas avoir besoin de relancer toutes les cellules à nouveau
-    - Les graphiques avec les résultats
+    - Des explications annotées tout au long du programme en expliquant ce que chaque cellule fait,
+    - Le format du dataset et comment y accéder via Google Drive,
+    - Les résultats au dessous des cellules une fois executées,
+    - Plots des CT-Scans,
+    - La normalisation des images à partir de la technique MinMax,
+    - La répartition des images pour le training et pour le test,
+    - L'implémentation de l'U-Net défini,
+    - L'enregistrement du modèle pour ne pas avoir besoin de relancer toutes les cellules à nouveau,
+    - Les graphiques avec les résultats.
 
 ### predict_and_reconstruct.ipynb 
 
-    - Charger le modèle déjà entraîné dans le notebook précédent
-    - L'utiliser pour prédire un masque sur une image 2D d'un CT-Scan
-    - Enregistrement des masques prédites par le modèle
-    - Seuillage
-    - Utiliser le modèle pour construire une segmentation 3D de l'aorte
+    - Charger le modèle déjà entraîné dans le notebook précédent,
+    - L'utiliser pour prédire un masque sur une image 2D d'un CT-Scan,
+    - Enregistrement des masques prédites par le modèle,
+    - Seuillage,
+    - Utiliser le modèle pour construire une segmentation 3D de l'aorte.
