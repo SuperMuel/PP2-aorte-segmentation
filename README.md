@@ -31,7 +31,7 @@ Our method is validated on a collection of 4100 2D images taken along the Z axis
 
 ## Deuxième étape du projet : Google Collab et programme final
 
-## U-NET_model_with_AVT_dataset.ipynb 
+### U-NET_model_with_AVT_dataset.ipynb 
 
     - Des explications annotées tout au long du programme en expliquant ce que chaque cellule fait.
     - Le format du dataset et comment y accéder via Google Drive.
@@ -43,7 +43,7 @@ Our method is validated on a collection of 4100 2D images taken along the Z axis
     - L'enregistrement du modèle pour ne pas avoir besoin de relancer toutes les cellules à nouveau
     - Les graphiques avec les résultats
 
-## predict_and_reconstruct.ipynb 
+### predict_and_reconstruct.ipynb 
 
     - Charger le modèle déjà entraîné dans le notebook précédent
     - L'utiliser pour prédire un masque sur une image 2D d'un CT-Scan
