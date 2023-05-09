@@ -29,7 +29,8 @@ Our method is validated on a collection of 4100 2D images taken along the Z axis
     - Afficher les prédictions du model.
 
 
-## Deuixième étape du projet : accès à Google Collab et bons paramètres
+## Deuixième étape du projet : Google Collab et programme final
+
 ## U-NET_model_with_AVT_dataset.ipynb 
 
 
