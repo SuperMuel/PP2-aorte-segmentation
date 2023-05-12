@@ -59,11 +59,11 @@ Accuracy de **0.999124**
 ## Première étape du projet : Familiarisation avec les réseaux de néurones
 
 ### [dataPreparation.py](./archives/dataPreparation.py)
-    - Savoir comment ouvrir des fichier .nrrd et .nii,
+    - Savoir comment ouvrir les fichier .nrrd et .nii,
     - Indiquer les paths où se trouvaient les images dans nos répertoires,
     - Créer des dossiers pour sauvegarder les images au format .png,
     - Plot les images et indiquer la couche et les coordonnées X, Y, Z,
-    - Ppremier approche à la normalisation d'images, mais fait avec des valeurs -1000 et 2000 triés complètement au hasard.
+    - Premier approche à la normalisation d'images, mais fait avec des valeurs -1000 et 2000 triés complètement au hasard.
 
 ### [training.py](./archives/training.py)
     - Créer les fonctions pour afficher les images qu'il trouvera sur les paths indiqués,
