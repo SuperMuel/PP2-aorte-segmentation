@@ -10,9 +10,9 @@ Aorta segmentation on 2D images of CT-Scans is a challenging task due to the com
 
 Our method is validated on a collection of 4100 2D images taken along the Z axis from 56 CT-Scan from various patients.
 
-# Programmes (Google Colab): 
+## Programmes (Google Colab): 
 
-## [U-NET_model_with_AVT_dataset](https://colab.research.google.com/drive/1v8Q8t6GG97aAVGyktspZ1FS9JvCFHwZs?usp=sharing)
+### [U-NET_model_with_AVT_dataset](https://colab.research.google.com/drive/1v8Q8t6GG97aAVGyktspZ1FS9JvCFHwZs?usp=sharing)
 
     - Le format du dataset et accès via Google Drive
     - Affichage de CT-Scans
@@ -22,12 +22,37 @@ Our method is validated on a collection of 4100 2D images taken along the Z axis
     - Enregistrement du modèle
     - Résultats
 
-## [predict_and_reconstruct.ipynb](https://colab.research.google.com/drive/1n42SPoclN6p0ce6WcqtD18VHsnWgny40?usp=sharing)
+### [predict_and_reconstruct.ipynb](https://colab.research.google.com/drive/1n42SPoclN6p0ce6WcqtD18VHsnWgny40?usp=sharing)
 
     - Charger le modèle entraîné
     - Prédiction de masques sur images 2D d'un CT-Scan
     - Construction d'un masque 3D à partir des différents masques 2D
     - Seuillages
+
+## Modèle
+[Fichier .h5](https://drive.google.com/file/d/1CzH6L56WrYizq_qYewDal8RtRNuQa0Dv/view?usp=drivesdk)
+
+- Entrainé sur **3198** images
+- Testé sur **902** images
+
+
+Accuracy de **0.999124**
+
+![Accuracy](https://drive.google.com/uc?id=1-9yGSurSnwU1mXv14q48gj9Xg3okV9dS)
+
+![loss](https://drive.google.com/uc?id=1-3knv9qCrAkalX7RD6sBVmdZIJtjgQKX)
+
+### Exemples de prédictions
+![Prédictions 2D](./images/predictions/D12_threshold_0.9_2D_all_axes.png)
+
+![Prédiction 3D](./images/predictions/D12_threshold_0.9_3D.png)
+
+
+[Autres exemples de prédictions 3D (.nrrd)](https://drive.google.com/drive/folders/1-SdXd8Wmu1Qms6JkUfSrBMWEPSkjQn3b)
+
+
+
+
 
 
 # Archives du projet  
