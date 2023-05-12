@@ -41,9 +41,10 @@ Accuracy de **0.999124**
 ![loss](https://drive.google.com/uc?id=1-3knv9qCrAkalX7RD6sBVmdZIJtjgQKX)
 
 ### Exemples de prédictions
-![Prédictions 2D](./images/predictions/D12_threshold_0.9_2D_all_axes.png)
+![Prédictions 2D](./images/predictions/D18/D18_0.6_all_views.png)
 
-![Prédiction 3D](./images/predictions/D12_threshold_0.9_3D.png)
+![Prédiction 3D](./images/predictions/D18/D18_0.6_3D.png)
+
 
 
 [Autres exemples de prédictions 3D (.nrrd)](https://drive.google.com/drive/folders/1-SdXd8Wmu1Qms6JkUfSrBMWEPSkjQn3b)
