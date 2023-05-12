@@ -75,3 +75,5 @@ Accuracy de **0.999124**
     - Load le model s'il existe déjà afin de ne pas avoir besoin d'éxecuter le programme à nouveau,
     - Afficher les prédictions du model.
 
+## Autres modèles : 
+https://drive.google.com/drive/folders/15T7vOEkkW3bTchztHj2SXn3MWl_JjNKk
