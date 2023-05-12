@@ -2,7 +2,7 @@
 # Ibrahim Harcha, Ilona Lazrak, Samuel Mallet, Rosa Sabater Rojas
 
 <!-- Add banner here -->
-<img src="logo.jpeg" alt="logo" width="100"/> <img src="university.jpeg" alt="university" width="100"/>
+<img src="images/logo.jpeg" alt="logo" width="100"/> <img src="images/university.jpeg" alt="university" width="100"/>
 
 
 ## Abstract
@@ -10,16 +10,38 @@ Aorta segmentation on 2D images of CT-Scans is a challenging task due to the com
 
 Our method is validated on a collection of 4100 2D images taken along the Z axis from 56 CT-Scan from various patients.
 
+# Programmes (Google Colab): 
+
+## [U-NET_model_with_AVT_dataset](https://colab.research.google.com/drive/1v8Q8t6GG97aAVGyktspZ1FS9JvCFHwZs?usp=sharing)
+
+    - Le format du dataset et accès via Google Drive
+    - Affichage de CT-Scans
+    - La normalisation
+    - Création du dataset training/testing
+    - L'implémentation de l'U-Net défini,
+    - Enregistrement du modèle
+    - Résultats
+
+## [predict_and_reconstruct.ipynb](https://colab.research.google.com/drive/1n42SPoclN6p0ce6WcqtD18VHsnWgny40?usp=sharing)
+
+    - Charger le modèle entraîné
+    - Prédiction de masques sur images 2D d'un CT-Scan
+    - Construction d'un masque 3D à partir des différents masques 2D
+    - Seuillages
+
+
+# Archives du projet  
+
 ## Première étape du projet : Familiarisation avec les réseaux de néurones
 
-### dataPreparation.py
+### [dataPreparation.py](./archives/dataPreparation.py)
     - Savoir comment ouvrir des fichier .nrrd et .nii,
     - Indiquer les paths où se trouvaient les images dans nos répertoires,
     - Créer des dossiers pour sauvegarder les images au format .png,
     - Plot les images et indiquer la couche et les coordonnées X, Y, Z,
     - Ppremier approche à la normalisation d'images, mais fait avec des valeurs -1000 et 2000 triés complètement au hasard.
 
-### testing.py
+### [training.py](./archives/training.py)
     - Créer les fonctions pour afficher les images qu'il trouvera sur les paths indiqués,
     - Créer les fonctions generatrices des images pour parcourir les dossiers et pour les redimensionner avec les paramètres définis dans les globales,
     - Compter les images des dossiers et indiquer combien d'images nous utilisons pour le training et pour le test,
@@ -28,25 +50,3 @@ Our method is validated on a collection of 4100 2D images taken along the Z axis
     - Load le model s'il existe déjà afin de ne pas avoir besoin d'éxecuter le programme à nouveau,
     - Afficher les prédictions du model.
 
-
-## Deuxième étape du projet : Google Collab et programme final
-
-### U-NET_model_with_AVT_dataset.ipynb 
-
-    - Des explications annotées tout au long du programme en expliquant ce que chaque cellule fait,
-    - Le format du dataset et comment y accéder via Google Drive,
-    - Les résultats au dessous des cellules une fois executées,
-    - Plots des CT-Scans,
-    - La normalisation des images à partir de la technique MinMax,
-    - La répartition des images pour le training et pour le test,
-    - L'implémentation de l'U-Net défini,
-    - L'enregistrement du modèle pour ne pas avoir besoin de relancer toutes les cellules à nouveau,
-    - Les graphiques avec les résultats.
-
-### predict_and_reconstruct.ipynb 
-
-    - Charger le modèle déjà entraîné dans le notebook précédent,
-    - L'utiliser pour prédire un masque sur une image 2D d'un CT-Scan,
-    - Enregistrement des masques prédites par le modèle,
-    - Seuillage,
-    - Utiliser le modèle pour construire une segmentation 3D de l'aorte.
