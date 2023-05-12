@@ -6,9 +6,7 @@
 
 
 ## Abstract
-Aorta segmentation on 2D images of CT-Scans is a challenging task due to the complex anatomy and variability of the aorta. We propose a method for aorta segmentation using convolutional neural networks (CNNs) and U-NET architectures. We use Python as the programming language and Tensorflow as the deep learning framework. Our method involves four stages: first, we preprocess and standardize our .nrrd CT-Scans; second  we use a CNN to detect the aorta region and crop the image accordingly; third, we use a U-NET to segment the aorta from the cropped image; finally, we reconstruct a 3D segmentation of the aorta based on our model. 
-
-Our method is validated on a collection of 4100 2D images taken along the Z axis from 56 CT-Scan from various patients.
+Performing non-contrasted aorta segmentation in CT-Scan volumes presents a complex challenge due to the intricate anatomy and varied visibility of the aorta. This paper proposes a three-stage method leveraging convolutional neural networks (CNNs) for robust aorta segmentation. The process initiates with the preprocessing of the CT-Scan volume, which includes resizing and normalization. Subsequently, a trained CNN is employed to perform slice-by-slice aorta segmentation in the preprocessed volume. The final stage of this procedure is the reconstruction of a 3D model from the collected masks obtained in the preceding step. This automated segmentation approach has been evaluated using a dataset comprising 900 2D images sourced from 11 patients.
 
 ## Programmes (Google Colab): 
 
